@@ -1,3 +1,7 @@
+using System;
+using System.Threading.Tasks;
+using System.Globalization;
+
 namespace Library;
 
 public record WeatherData(string City, double TemperatureCelsius, string Condition);
